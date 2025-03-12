@@ -1,8 +1,7 @@
+# ここからプロジェクト固有の対象ディレクトリおよびファイルを追記
+
 # Compiled class file
 *.class
-
-# Log file
-*.log
 
 # BlueJ files
 *.ctxt
@@ -22,3 +21,35 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# IDE関連の設定
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+# Eclipse settings
+.settings/
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# Microsoft Office & LibreOffice のロックファイル
+~$*
+.~lock.*
+
+# ログファイル
+*.log
+
+# その他
+*.swp
+*.bak
+.sass-cache/
+
